@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils.data_loader import load_data
-from utils.validation import validate_order_totals, validate_channel_share
-from utils.kpi_calculator import(
+from data_loader import load_data
+from validation import validate_order_totals, validate_channel_share
+from kpi_calculator import(
    calculate_dependency_index,
    calculate_diversification_score,
    calculate_channel_market_share
